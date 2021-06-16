@@ -8,7 +8,7 @@ main_application.geometry('800x500')
 main_application.title('Vpad text editor')
 
 
-################################################## main menu ##############################################
+############################################## main menu ##########################################
 
 main_menu=tk.Menu(main_application)
 
@@ -64,7 +64,7 @@ main_menu.add_cascade(label='Edit',menu=edit)
 main_menu.add_cascade(label='View',menu=view)
 main_menu.add_cascade(label='Color Theme',menu=color_theme)
 
-#----------------------------------------------- End main menu ------------------------------------------------
+#----------------------------------------------- End main menu ---------------------------------------------
 
 
 ################################################### toolbar #################################################
